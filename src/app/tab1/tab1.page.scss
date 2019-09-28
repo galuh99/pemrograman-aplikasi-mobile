@@ -1,0 +1,74 @@
+.welcome-card img {
+  max-height: 100vh;
+  overflow: hidden;
+}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+.login{
+ width: 100px;
+ margin: 20px auto;
+ font-size: 100px;
+}
+
+.hd{
+  background:  #0781f3;
+  padding: 30px;
+  font-size: 1.5cm;
+  font-weight:normal;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+
+.login-container {
+  background: #d8dddd;
+  height: 299px;
+ 
+  padding: 14px;
+}
+
+.login p {
+  padding: 14px;
+}
+
+.login input{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  padding: 40px;
+  outline: 0;
+  font-family: 'Franklin Gothic Medium'; 
+  font-size: 0.95cm;
+  }
+
+  .login input[type="email"]:focus,
+  .login input[type="password"]{
+   background: #fff;
+   border-color: rgb(151, 247, 247);
+   color: rgb(245, 96, 96);
+  }
+
+
+  .login input[type="email"]:focus,
+  .login input[type="password"]:focus { 
+    border-color: rgb(221, 164, 164);
+   }
+
+  .login input [type="submit"]:hover {
+    background: #0d3f67 ;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .login input[type="submit"]:hover{
+    border-color: #1ee3cf;
+  }
+
+
+  .login input[type="submit"]:focus{
+    border-color: #f2f4f6;
+  }
