@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="game">
+      Tambah Produk
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-list>
+      <ion-item>
+          <ion-button >Upload Foto</ion-button>
+          <ion-button >Ambil Foto</ion-button>
+        </ion-item>
+<ion-item><ion-input placeholder="Nama Barang"></ion-input></ion-item>
+<ion-item>
+    <ion-textarea placeholder="Deskripsi Barang"></ion-textarea>
+  </ion-item>
+
+<ion-item><ion-label><b>Harga</b></ion-label>
+  <ion-input type="integer" ></ion-input></ion-item>
+  <ion-radio-group allow-empty-selection>
+    <ion-list-header>
+      <ion-label><b>Kondisi Barang</b></ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label><b>Baru</b></ion-label>
+      <ion-radio slot="end" color="primary"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label><b>Bekas</b></ion-label>
+      <ion-radio slot="end" color="secondary" checked></ion-radio>
+    </ion-item>
+
+  </ion-radio-group>
+  <ion-item>
+    <ion-label><b>Kategori</b></ion-label>
+    <ion-select multiple="true" cancelText="Tidak" okText="Okay!">
+      <ion-select-option value="PlayStation1">Konsol Game</ion-select-option>
+      <ion-select-option value="PlayStation1">Cd Game</ion-select-option>
+      <ion-select-option value="PlayStation1">Game Controller</ion-select-option>
+      
+    </ion-select>
+  </ion-item>
+  
+    <ion-item>
+        <ion-label><b>Tanggal-Bulan-Tahun</b></ion-label>
+        <ion-datetime displayFormat="DD MM YY" placeholder="Select Date"></ion-datetime>
+      </ion-item>
+      <ion-item>
+          <ion-button >Upload</ion-button>
+          </ion-item>
+        </ion-list>
+
+        </ion-content>
+
+
+  <ion-footer>
+      <ion-item >
+        <ion-button href="/tabs/tab2">GOBACK </ion-button>
+      </ion-item>
+    
+    
+    </ion-footer>
