@@ -1,0 +1,15 @@
+<ion-header class="game">
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Keranjang Belanja</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Your Order</h2>
+  <p>Name: {{produkData.name}}</p>
+  <p>Quantity: {{produkData.quantity}}</p>
+  <button ion-button (click)="onConfirm">Buy</button>
+</ion-content>

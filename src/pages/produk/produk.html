@@ -1,0 +1,14 @@
+<ion-header class="game">
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Produk</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button (click)="onBuy({name: 'Playstation 1', quantity: 1})">Playstation 1</button><br>
+  <button ion-button (click)="onBuy({name: 'Playstation 2', quantity: 1})">Playstation 2</button><br>
+  <button ion-button (click)="onBuy({name: 'Playstation 3', quantity: 1})">Playstation 3</button><br>
+</ion-content>

@@ -1,0 +1,23 @@
+<ion-header class="game">
+  <ion-navbar>
+    <button ion-button menuToggle  >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title  >Beranda</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <b>SELAMAT DATANG</b><br>
+  <ion-item>
+    <ion-col text-right>
+      
+      <button ion-button (click)="onGoToLogin()">Login<ion-icon name="contact"></ion-icon></button>
+    </ion-col>
+    
+  </ion-item> 
+  
+</ion-content>
+<ion-footer class="game">
+  <button ion-button secondary menuToggle  >Kembali Menu</button>
+</ion-footer>
